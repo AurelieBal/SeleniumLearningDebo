@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstWithGit.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstWithGit.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstWithGit_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstWithGit_main.iml" group="FirstWithGit" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstWithGit_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstWithGit_test.iml" group="FirstWithGit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TrelloSeleniumTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TrelloSeleniumTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TrelloSeleniumTest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TrelloSeleniumTest_main.iml" group="TrelloSeleniumTest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TrelloSeleniumTest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TrelloSeleniumTest_test.iml" group="TrelloSeleniumTest" />
     </modules>
   </component>
 </project>

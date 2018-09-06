@@ -1,19 +1,24 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class EbayTest
+public class EbayTest extends TestBase
 {
 
-    ChromeDriver driver;
+
  @Test
-    public void setUp()
+    public void registrationTest()
     {
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.get("https://www.ebay.com");
-        
-        driver.quit();
+        initNewUserRegistration();
+        fillFirstNameForm();
+        fillLastNameForm();
+        fillEmailField();
+        fillPasswordForm();
+        clickOnButtonSubmitRegistration();
+
     }
+
+
 }
